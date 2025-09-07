@@ -1,0 +1,33 @@
+name: Update M3U Playlist
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs every day at midnight UTC
+  workflow_dispatch:       # allows manual trigger
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python update_m3u.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add my_playlist.m3u
+          git commit -m "Auto update playlist [skip ci]" || echo "No changes to commit"
+          git push
