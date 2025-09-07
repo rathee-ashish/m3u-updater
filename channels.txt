@@ -1,0 +1,41 @@
+Movies:{
+Star Gold HD,
+Star Gold 2 HD,
+Star Movies Select HD,
+Star Gold Select HD,
+Star Movies,
+Star Utsav Movies,
+Star Jalsha Movies HD,
+Star Gold,
+Star Gold 2,
+Star Gold Select,
+Star Gold Romance,
+Star Gold Thrills,
+Star Utsav
+}
+
+Kids:{
+Disney Channel,
+Disney Junior,
+Disney International HD,
+Hungama,
+Super Hungama
+}
+
+Entertainment:{
+Star Plus HD,
+Star Bharat HD,
+Star Bharat,
+Star Suvarna Plus,
+Star Pravah HD
+}
+
+Sports:{
+Star Sports 1,
+Star Sports 2,
+Star Sports 1 Hindi HD,
+Star Sports Select 1,
+Star Sports Select 1 HD,
+Star Sports Select 2,
+Star Sports Select 2 HD
+}
