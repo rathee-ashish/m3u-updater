@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
+"""
+update_m3u.py
+
+- Replaces blocks for channels listed in channels.txt with fresh blocks from SOURCE_URL
+- Ensures group-title is set from channels.txt
+- Extracts cookie + user-agent (from URL or existing #EXTHTTP/#EXTVLCOPT)
+- Inserts #EXTVLCOPT and #EXTHTTP in the desired format and rewrites URL to:
+    base?cookie_part&xxx=%7Ccookie=cookie_part
+- Does NOT print license keys/cookies to logs
+"""
 import re
 import requests
 
 MY_PLAYLIST = "my_playlist.m3u"
 CHANNELS_FILE = "channels.txt"
-SOURCE_URL = "https://raw.githubusercontent.com/alex4528/m3u/main/jstar.m3u"
+SOURCE_URL = "https://raw.githubusercontent.com/doctor-8trange/tekphi7/refs/heads/main/data/jiotv.m3u"
+
 
 def parse_channels_file(path):
     groups = {}
@@ -28,10 +39,12 @@ def parse_channels_file(path):
                     groups[current_group].append(ch)
     return groups
 
+
 def fetch_source_lines(url):
     r = requests.get(url, timeout=30)
     r.raise_for_status()
     return r.text.splitlines()
+
 
 def parse_m3u_blocks(lines):
     header = []
@@ -55,6 +68,7 @@ def parse_m3u_blocks(lines):
         blocks.append((current_name, current_block))
     return header, blocks
 
+
 def set_group_title_in_extinf(extinf_line, group):
     prefix, sep, name = extinf_line.rpartition(",")
     if not sep:
@@ -65,55 +79,141 @@ def set_group_title_in_extinf(extinf_line, group):
         prefix = prefix + f' group-title="{group}"'
     return prefix + "," + name
 
+
+def transform_block(src_block):
+    if not src_block:
+        return src_block
+
+    url_idx = None
+    for i in range(len(src_block) - 1, -1, -1):
+        ln = src_block[i].strip()
+        if ln and not ln.startswith("#"):
+            url_idx = i
+            break
+
+    cookie_from_exthttp = None
+    ua_from_extvlc = None
+    for ln in src_block:
+        if ln.startswith("#EXTHTTP"):
+            m = re.search(r'"cookie"\s*:\s*"([^"]+)"', ln)
+            if m:
+                cookie_from_exthttp = m.group(1)
+        if ln.startswith("#EXTVLCOPT"):
+            m = re.search(r'http-user-agent=(.*)', ln, flags=re.IGNORECASE)
+            if m:
+                ua_from_extvlc = m.group(1).strip()
+
+    cookie_only = cookie_from_exthttp
+    ua = ua_from_extvlc
+    url_line = None
+    if url_idx is not None:
+        url_line = src_block[url_idx].strip()
+
+    if cookie_only is None and url_line:
+        cookie_split = re.split(r'\|[Cc]ookie=', url_line, 1)
+        if len(cookie_split) == 2:
+            base = cookie_split[0].strip()
+            tail = cookie_split[1].strip()
+            ua_split = re.split(r'&[Uu]ser-[Aa]gent=', tail, 1)
+            cookie_part = ua_split[0].strip()
+            cookie_only = cookie_part
+            if len(ua_split) > 1:
+                ua = ua_split[1].strip()
+
+    if cookie_only is None and url_line:
+        if "?__hdnea__=" in url_line and "&xxx=%7Ccookie=" in url_line:
+            m = re.search(r'&xxx=%7Ccookie=([^&\s]+)', url_line)
+            if m:
+                cookie_only = m.group(1)
+
+    transformed_url = url_line
+    if cookie_only and url_line:
+        if re.search(r'\|[Cc]ookie=', url_line):
+            base = re.split(r'\|[Cc]ookie=', url_line, 1)[0].strip()
+        else:
+            base = url_line.split("?", 1)[0].strip()
+        transformed_url = f"{base}?{cookie_only}&xxx=%7Ccookie={cookie_only}"
+
+    new_block = []
+    for idx, ln in enumerate(src_block):
+        if ln.startswith("#EXTVLCOPT") or ln.startswith("#EXTHTTP"):
+            continue
+        if idx == url_idx:
+            continue
+        new_block.append(ln)
+
+    if ua:
+        ua_clean = ua.strip()
+        new_block.append(f'#EXTVLCOPT:http-user-agent={ua_clean}')
+
+    if cookie_only:
+        cookie_clean = cookie_only.strip()
+        new_block.append(f'#EXTHTTP:{{"cookie":"{cookie_clean}"}}')
+
+    if transformed_url:
+        new_block.append(transformed_url)
+
+    return new_block
+
+
 def main():
+    print("[LOG] Reading channels.txt")
     groups = parse_channels_file(CHANNELS_FILE)
     channel_to_group = {ch.lower(): grp for grp, chs in groups.items() for ch in chs}
 
+    print("[LOG] Fetching source M3U…")
     source_lines = fetch_source_lines(SOURCE_URL)
     _, source_blocks_list = parse_m3u_blocks(source_lines)
     source_blocks = {name.lower(): block for name, block in source_blocks_list}
+    print(f"[LOG] Source contains {len(source_blocks)} channels")
 
     try:
         with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
             my_lines = f.read().splitlines()
+        print(f"[LOG] Loaded existing playlist with {len(my_lines)} lines")
     except FileNotFoundError:
         my_lines = ["#EXTM3U"]
+        print("[LOG] No existing playlist, creating new")
 
     header, my_blocks = parse_m3u_blocks(my_lines)
 
     updated_blocks = []
     updated_channels = set()
 
-    # ✅ Update in place
     for name, block in my_blocks:
         lname = name.lower()
         if lname in channel_to_group and lname in source_blocks:
-            new_block = list(source_blocks[lname])
+            src_block = list(source_blocks[lname])
+            new_block = transform_block(src_block)
             desired_group = channel_to_group[lname]
             new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
             updated_blocks.append((name, new_block))
             updated_channels.add(lname)
-            print(f"Updated: {name}")
+            print(f"[LOG] Replaced with fresh block: {name}")
         else:
             updated_blocks.append((name, block))
 
-    # ✅ Append only missing ones
     for ch_lower, desired_group in channel_to_group.items():
         if ch_lower not in updated_channels and ch_lower in source_blocks:
-            new_block = list(source_blocks[ch_lower])
+            src_block = list(source_blocks[ch_lower])
+            new_block = transform_block(src_block)
             new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
             display_name = new_block[0].rpartition(",")[2].strip()
             updated_blocks.append((display_name, new_block))
-            print(f"Added missing channel: {display_name}")
+            print(f"[LOG] Added new channel: {display_name}")
 
     output_lines = header or ["#EXTM3U"]
     for _, block in updated_blocks:
-        output_lines.extend(block)
+        for ln in block:
+            if ln.strip():  # remove blanks inside
+                output_lines.append(ln)
+        output_lines.append("")  # one blank line after each block
 
     with open(MY_PLAYLIST, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines) + "\n")
 
-    print("✅ Done")
+    print(f"[LOG] ✅ Playlist updated, total {len(updated_blocks)} channels")
+
 
 if __name__ == "__main__":
     main()
