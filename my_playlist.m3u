@@ -527,17 +527,23 @@ http://localhost:5350/live/1477.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=e1e2d64eaf514da88dbf341518910000:031bbcc4995ba31ea38fa18d66f9adf1
-#EXTINF:-1 tvg-id="1260000040" tvg-name="Star Gold HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7211/597211-h",Star Gold HD
+#EXTINF:-1 tvg-id="1260000040" tvg-name="Star Gold HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7211/597211-h" group-title="Movies" ,Star Gold HD
 https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd|cookie=hdntl=exp=1758425357~acl=*gec-india-1540005563*~id=28a7fa6572109dc274e806f76163d349~data=hdntl~hmac=16e04428afff3f65d82f764c4366a51abc087126abf5bc136595315e97c8696a&user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/11)
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=e1e2d64eaf514da88dbf341518910000:031bbcc4995ba31ea38fa18d66f9adf1
-#EXTINF:-1 tvg-id="1260000040" tvg-name="Star Gold HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7211/597211-h",Star Gold HD
+#EXTINF:-1 tvg-id="1260000040" tvg-name="Star Gold HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7211/597211-h" group-title="Movies" ,Star Gold HD 2
 https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd
 
-#EXTINF:-1 tvg-id="156" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="Movies",Star Gold HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
+
+#EXTINF:-1 tvg-id="1260000040" tvg-name="Star Gold HD" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7211/597211-h" group-title="Movies" ,Star Gold HD 3
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=e1e2d64eaf514da88dbf341518910000:031bbcc4995ba31ea38fa18d66f9adf1
+https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd
+
+#EXTINF:-1 tvg-id="156" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="Movies",Star Gold HD 4
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=ec7ad3786d9e5efa9e0c4aeb3e58c7b7:907509ccae7e68b30ae75b5d09fe60ef
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.7 (Linux;Android 13) ExoPlayerLib/2.11.7
