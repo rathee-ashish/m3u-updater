@@ -3,7 +3,7 @@
 https://dish.slivcdn.com/hls/live/2011671/SETHD/master.m3u8
 
 #EXTINF: -1 tvg-id="471" tvg-name="Sony SAB HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment", Sony SAB HD
-https://pubads.g.doubleclick.net/ssai/event/UI4QFJ_uRk6aLxIcADqa_A/master.m3u8
+https://dish.slivcdn.com/hls/live/2011749/SABHD/master.m3u8
 
 #EXTINF: -1 tvg-id="144" tvg-name="Colors HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" group-title="Entertainment", Colors HD
 http://localhost:5350/live/144.m3u8
@@ -507,7 +507,7 @@ http://localhost:5350/live/2759.m3u8
 http://localhost:5350/live/2761.m3u8
 
 #EXTINF: -1 tvg-id="476" tvg-name="Sony Max HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies", Sony Max HD
-https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
+https://dish.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8
 
 #EXTINF: -1 tvg-id="185" tvg-name="And Pictures HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/And_Pictures_HD.png" group-title="Movies", And Pictures HD
 http://localhost:8000/zee5/index.php?id=0-9-tvpictureshd
@@ -518,11 +518,16 @@ http://localhost:8000/zee5/index.php?id=0-9-zeecinemahd
 #EXTINF: -1 tvg-id="1349" tvg-name="And Prive HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/And_Prive_HD.png" group-title="Movies", And Prive HD
 http://localhost:8000/zee5/index.php?id=0-9-9z5543514
 
-#EXTINF: -1 tvg-id="1349" tvg-name="And Prive HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Xplore_HD.png" group-title="Movies", And Xplor HD
-http://localhost:8000/zee5/index.php?id=0-9-9z5543514
+#EXTINF: -1 tvg-id="0-9-209" tvg-name="And Prive HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Xplore_HD.png" group-title="Movies", And Xplor HD
+http://localhost:8000/zee5/index.php?id=0-9-209
 
 #EXTINF: -1 tvg-id="1477" tvg-name="Colors Cineplex HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png" group-title="Movies", Colors Cineplex HD
 http://localhost:5350/live/1477.m3u8
+
+#EXTINF:-1 tvg-id="156" tvg-name="Star Gold HD" tvg-logo="https://img.media.jio.com/tvpimages/65/42/301971_1748031087472_p_medium.jpg" group-title="Movies", Star Gold HD new
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://jt.drmlive.net/jiotvplus/jtck?id=156
+https://jt.drmlive.net/jiotvplus/156.mpd
 
 #EXTINF:-1 tvg-id="156" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="Movies",Star Gold HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -538,7 +543,7 @@ http://localhost:8000/zee5/index.php?id=0-9-channel_2105335046
 http://localhost:5350/live/182.m3u8
 
 #EXTINF: -1 tvg-id="762" tvg-name="Sony Pix HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies", Sony Pix HD
-https://pubads.g.doubleclick.net/ssai/event/8FR5Q-WfRWCkbMq_GxZ77w/master.m3u8
+https://dish.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
 
 #EXTINF:-1 tvg-id="1113" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png" group-title="Movies",Star Gold Select HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -564,6 +569,8 @@ http://localhost:5350/live/1763.m3u8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.7 (Linux;Android 13) ExoPlayerLib/2.11.7
 #EXTHTTP:{"cookie":"__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/output/index.mpd?__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732&xxx=%7Ccookie=__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732
+https://dish.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8
+
 #EXTINF: -1 tvg-id="252" tvg-name="ETV Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Cinema.png" group-title="Movies", ETV Cinema
 http://localhost:5350/live/252.m3u8
 
@@ -589,7 +596,10 @@ http://localhost:5350/live/482.m3u8
 http://localhost:5350/live/289.m3u8
 
 #EXTINF: -1 tvg-id="483" tvg-name="Sony MAX2" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies", Sony MAX2
-https://pubads.g.doubleclick.net/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8
+https://dish.slivcdn.com/hls/live/2011908/MAX2/master.m3u8
+
+#EXTINF:-10 tvg-id="10", tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies", SONY WAH
+https://dish.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8
 
 #EXTINF: -1 tvg-id="484" tvg-name="Zee Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Cinema.png" group-title="Movies", Zee Cinema
 http://localhost:5350/live/484.m3u8
@@ -780,8 +790,8 @@ http://localhost:5350/live/774.m3u8
 #EXTINF: -1 tvg-id="775" tvg-name="Vanitha" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Vanitha.png" group-title="Infotainment", Vanitha
 http://localhost:5350/live/775.m3u8
 
-#EXTINF: -1 tvg-id="823" tvg-name="Sony BBC Earth SD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_SD.png" group-title="Infotainment", Sony BBC Earth SD
-https://pubads.g.doubleclick.net/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8
+#EXTINF:-23 tvg-id="23", tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD_English.png", tvg-language="Hindi", group-title="Infotainment", SONY BBC EARTH HD
+https://dish.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8
 
 #EXTINF: -1 tvg-id="852" tvg-name="Sony BBC Earth HD English" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD_English.png" group-title="Infotainment", Sony BBC Earth HD English
 http://localhost:5350/live/852.m3u8
@@ -1104,11 +1114,16 @@ http://localhost:5350/live/2754.m3u8
 #EXTINF: -1 tvg-id="2755" tvg-name="Saregama Hum Bhojpuri" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Saregama_Hum_Bhojpuri.png" group-title="Music", Saregama Hum Bhojpuri
 http://localhost:5350/live/2755.m3u8
 
-#EXTINF:-1 tvg-id="364" tvg-name="Star Sports 1 HD" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h" group-title="Sports",Star Sports 1 HD
-http://localhost:8000/portal.php?id=364
-
-#EXTINF:-1 tvg-id="366" tvg-name="Star Sports 2 HD" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h" group-title="Sports",Star Sports 2 HD
-http://localhost:8000/portal.php?id=366
+#EXTINF:-18 tvg-id="18", tvg-logo="https://medianet.mv/media/channel/178x0-icon.png", tvg-language="Hindi", group-title="Sports", SONY SPORTS 1 HD
+https://dish.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
+#EXTINF:-19 tvg-id="19", tvg-logo="https://medianet.mv/media/channel/187x0-icon.png", tvg-language="Hindi", group-title="Sports", SONY SPORTS 2 HD
+https://dish.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
+#EXTINF:-20 tvg-id="20", tvg-logo="https://the-media-ant.mo.cloudinary.net/medias/569ccce68ead0e21236eb474/1693896680432/star%20sports%20ten%203%20hd_logo.svg?tx=w_350", tvg-language="Hindi", group-title="Sports", SONY SPORTS 3 HD
+https://dish.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+#EXTINF:-21 tvg-id="21", tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png", tvg-language="Hindi", group-title="Sports", SONY SPORTS 4 HD
+https://dish.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
+#EXTINF:-22 tvg-id="22", tvg-logo="https://the-media-ant.mo.cloudinary.net/uploads/mediaLogos/1693566124160/10%20Sony%20Sports%20Ten%205%20HD.svg?tx=w_350", tvg-language="Hindi", group-title="Sports", SONY SPORTS 5 HD
+https://dish.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
 
 #EXTINF:-1 tvg-id="1108" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png" group-title="Sports",Star Sports 1 Hindi HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
