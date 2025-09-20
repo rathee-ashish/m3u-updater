@@ -14,19 +14,20 @@ http://localhost:8000/zee5/index.php?id=0-9-zeetvhd
 #EXTINF: -1 tvg-id="472" tvg-name="And TV HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/And_TV_HD.png" group-title="Entertainment", And TV HD
 http://localhost:8000/zee5/index.php?id=0-9-tvhd_0
 
-#EXTINF:-1 tvg-id="1132" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db
-
+#EXTINF:-1 tvg-id="1132" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.7 (Linux;Android 13) ExoPlayerLib/2.11.7
 #EXTHTTP:{"cookie":"__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Plus_HD_BTS/output/index.mpd?__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732&xxx=%7Ccookie=__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732
-#EXTINF:-1 tvg-id="931" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png" group-title="Entertainment",Star Bharat HD
+
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=701524f373c55b2785ac49aab0bdc4a6:9de42eedb40f6c243848eb8aa8103e32
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.7 (Linux;Android 13) ExoPlayerLib/2.11.7
 #EXTHTTP:{"cookie":"__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732"}
+#EXTINF:-1 tvg-id="931" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png" group-title="Entertainment",Star Bharat HD
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Bharat_HD_BTS/output/index.mpd?__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732&xxx=%7Ccookie=__hdnea__=st=1758348020~exp=1758434420~acl=/*~hmac=1dfd39f5d130e91d3ca3dcc32b51ff4dfda305dcac07e2bd562aabbc046ab732
 #EXTINF:-1 tvg-id="1127" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat.png" group-title="Entertainment",Star Bharat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
