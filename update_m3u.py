@@ -2,19 +2,23 @@
 """
 update_m3u.py
 
-- Replaces blocks for channels listed in channels.txt with fresh blocks from SOURCE_URL
-- Ensures group-title is set from channels.txt
+- Replaces blocks for channels listed in channels.txt (Star channels) with fresh blocks from STAR_SOURCE_URL
+- Replaces blocks for channels listed in sonychannels.txt (Sony channels) with fresh blocks from SONY_SOURCE_URL
+- Ensures group-title is set from respective channel files
 - Extracts cookie + user-agent (from URL or existing #EXTHTTP/#EXTVLCOPT)
 - Inserts #EXTVLCOPT and #EXTHTTP in the desired format and rewrites URL to:
     base?cookie_part&xxx=%7Ccookie=cookie_part
 - Does NOT print license keys/cookies to logs
+- Processes both Star and Sony channels separately with their respective sources
 """
 import re
 import requests
 
 MY_PLAYLIST = "my_playlist.m3u"
 CHANNELS_FILE = "channels.txt"
-SOURCE_URL = "https://raw.githubusercontent.com/doctor-8trange/tekphi7/refs/heads/main/data/jiotv.m3u"
+SONY_CHANNELS_FILE = "sonychannels.txt"
+STAR_SOURCE_URL = "https://raw.githubusercontent.com/doctor-8trange/tekphi7/refs/heads/main/data/jiotv.m3u"
+SONY_SOURCE_URL = "https://solii.saqlainhaider8198.workers.dev/"
 
 
 def parse_channels_file(path):
@@ -191,16 +195,27 @@ def transform_block(src_block):
 
 
 def main():
-    print("[LOG] Reading channels.txt")
-    groups = parse_channels_file(CHANNELS_FILE)
-    # mapping channel name (lower) -> group
-    channel_to_group = {ch.lower(): grp for grp, chs in groups.items() for ch in chs}
+    print("[LOG] Reading channels.txt (Star channels)")
+    star_groups = parse_channels_file(CHANNELS_FILE)
+    # mapping channel name (lower) -> group for Star channels
+    star_channel_to_group = {ch.lower(): grp for grp, chs in star_groups.items() for ch in chs}
 
-    print("[LOG] Fetching source M3U…")
-    source_lines = fetch_source_lines(SOURCE_URL)
-    _, source_blocks_list = parse_m3u_blocks(source_lines)
-    source_blocks = {name.lower(): block for name, block in source_blocks_list}
-    print(f"[LOG] Source contains {len(source_blocks)} channels")
+    print("[LOG] Reading sonychannels.txt (Sony channels)")
+    sony_groups = parse_channels_file(SONY_CHANNELS_FILE)
+    # mapping channel name (lower) -> group for Sony channels
+    sony_channel_to_group = {ch.lower(): grp for grp, chs in sony_groups.items() for ch in chs}
+
+    print("[LOG] Fetching Star source M3U…")
+    star_source_lines = fetch_source_lines(STAR_SOURCE_URL)
+    _, star_source_blocks_list = parse_m3u_blocks(star_source_lines)
+    star_source_blocks = {name.lower(): block for name, block in star_source_blocks_list}
+    print(f"[LOG] Star source contains {len(star_source_blocks)} channels")
+
+    print("[LOG] Fetching Sony source M3U…")
+    sony_source_lines = fetch_source_lines(SONY_SOURCE_URL)
+    _, sony_source_blocks_list = parse_m3u_blocks(sony_source_lines)
+    sony_source_blocks = {name.lower(): block for name, block in sony_source_blocks_list}
+    print(f"[LOG] Sony source contains {len(sony_source_blocks)} channels")
 
     try:
         with open(MY_PLAYLIST, "r", encoding="utf-8") as f:
@@ -215,31 +230,59 @@ def main():
     updated_blocks = []
     updated_channels = set()
 
-    # Replace old blocks entirely with fresh ones (and transform)
+    # Process Star channels
+    print("[LOG] Processing Star channels...")
     for name, block in my_blocks:
         lname = name.lower()
-        if lname in channel_to_group and lname in source_blocks:
-            src_block = list(source_blocks[lname])
+        if lname in star_channel_to_group and lname in star_source_blocks:
+            src_block = list(star_source_blocks[lname])
             new_block = transform_block(src_block)
             # set desired group-title
-            desired_group = channel_to_group[lname]
+            desired_group = star_channel_to_group[lname]
             new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
             updated_blocks.append((name, new_block))
             updated_channels.add(lname)
-            print(f"[LOG] Replaced with fresh block: {name}")
+            print(f"[LOG] Replaced Star channel with fresh block: {name}")
         else:
-            # keep untouched
+            # keep untouched (will be processed for Sony channels later)
             updated_blocks.append((name, block))
 
-    # Add missing channels from channel list (if not already updated)
-    for ch_lower, desired_group in channel_to_group.items():
-        if ch_lower not in updated_channels and ch_lower in source_blocks:
-            src_block = list(source_blocks[ch_lower])
+    # Add missing Star channels from channel list (if not already updated)
+    for ch_lower, desired_group in star_channel_to_group.items():
+        if ch_lower not in updated_channels and ch_lower in star_source_blocks:
+            src_block = list(star_source_blocks[ch_lower])
             new_block = transform_block(src_block)
             new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
             display_name = new_block[0].rpartition(",")[2].strip()
             updated_blocks.append((display_name, new_block))
-            print(f"[LOG] Added new channel: {display_name}")
+            updated_channels.add(ch_lower)
+            print(f"[LOG] Added new Star channel: {display_name}")
+
+    # Process Sony channels
+    print("[LOG] Processing Sony channels...")
+    # First, replace existing Sony channels
+    for i, (name, block) in enumerate(updated_blocks):
+        lname = name.lower()
+        if lname in sony_channel_to_group and lname in sony_source_blocks:
+            src_block = list(sony_source_blocks[lname])
+            new_block = transform_block(src_block)
+            # set desired group-title
+            desired_group = sony_channel_to_group[lname]
+            new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
+            updated_blocks[i] = (name, new_block)
+            updated_channels.add(lname)
+            print(f"[LOG] Replaced Sony channel with fresh block: {name}")
+
+    # Add missing Sony channels from channel list (if not already updated)
+    for ch_lower, desired_group in sony_channel_to_group.items():
+        if ch_lower not in updated_channels and ch_lower in sony_source_blocks:
+            src_block = list(sony_source_blocks[ch_lower])
+            new_block = transform_block(src_block)
+            new_block[0] = set_group_title_in_extinf(new_block[0], desired_group)
+            display_name = new_block[0].rpartition(",")[2].strip()
+            updated_blocks.append((display_name, new_block))
+            updated_channels.add(ch_lower)
+            print(f"[LOG] Added new Sony channel: {display_name}")
 
     # Reconstruct playlist
     output_lines = header or ["#EXTM3U"]
@@ -250,6 +293,8 @@ def main():
         f.write("\n".join(output_lines) + "\n")
 
     print(f"[LOG] ✅ Playlist updated, total {len(updated_blocks)} channels")
+    print(f"[LOG] Star channels processed: {len([ch for ch in updated_channels if ch in star_channel_to_group])}")
+    print(f"[LOG] Sony channels processed: {len([ch for ch in updated_channels if ch in sony_channel_to_group])}")
 
 
 if __name__ == "__main__":
