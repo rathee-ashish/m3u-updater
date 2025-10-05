@@ -1,10 +1,8 @@
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
-#EXTINF: -1 tvg-id="291" tvg-name="SET HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment", SET HD
-https://dish.slivcdn.com/hls/live/2011671/SETHD/master.m3u8
-
-#EXTINF: -1 tvg-id="471" tvg-name="Sony SAB HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment", Sony SAB HD
-https://dish.slivcdn.com/hls/live/2011749/SABHD/master.m3u8
-
+#EXTINF:-1 tvg-id="1000009246" tvg-name="SONY HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SONY HD
+https://dishmt.slivcdn.com/hls/live/2011671-b/SETHD/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
+https://dishmt.slivcdn.com/hls/live/2011749-b/SABHD/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF: -1 tvg-id="144" tvg-name="Colors HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" group-title="Entertainment", Colors HD
 http://localhost:5350/live/144.m3u8
 
@@ -2974,10 +2972,6 @@ https://jiotvbpkmob.cdn.jio.com/bpk-tv/Star_Sports_Select_1_HD_BTS/output/index.
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/output/index.mpd?__hdnea__=st=1759618205~exp=1759704605~acl=/*~hmac=c30755e8c019f46b6f9c4a739e9f0cc2cd99e27a4738a0d0a153d2b3e5eb8e42&xxx=%7Ccookie=__hdnea__=st=1759618205~exp=1759704605~acl=/*~hmac=c30755e8c019f46b6f9c4a739e9f0cc2cd99e27a4738a0d0a153d2b3e5eb8e42
 #EXTINF:-1 tvg-id="1000009249" tvg-name="SONY MAX" group-title="Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_SD.png",SONY MAX
 https://dishmt.slivcdn.com/hls/live/2011745-b/SonyMaxSD/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
-#EXTINF:-1 tvg-id="1000009246" tvg-name="SONY HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SONY HD
-https://dishmt.slivcdn.com/hls/live/2011671-b/SETHD/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
-#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
-https://dishmt.slivcdn.com/hls/live/2011749-b/SABHD/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF:-1 tvg-id="1000009259" tvg-name="SONY MARATHI" group-title="Entertainment" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",SONY MARATHI
 https://dishmt.slivcdn.com/hls/live/2011740-b/SonyMarathi/master.m3u8?hdnea=exp=1759635007~acl=/*~id=8b5504fdbe7d4d5f8507875834b79044-1759591768558~hmac=0ba4944657e2d75d3657fc09c85347e35e11a7500518e3e44fa6c31caf5314ba|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF:-1 tvg-id="1000001971" tvg-name="SONY YAY" group-title="Kids" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY
