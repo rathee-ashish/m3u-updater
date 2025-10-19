@@ -17,7 +17,7 @@ import requests
 MY_PLAYLIST = "my_playlist.m3u"
 CHANNELS_FILE = "channels.txt"
 SONY_CHANNELS_FILE = "sonychannels.txt"
-STAR_SOURCE_URL = "https://raw.githubusercontent.com/doctor-8trange/tekphi7/refs/heads/main/data/jiotv.m3u"
+STAR_SOURCE_URL = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jtv.m3u"
 SONY_SOURCE_URL = "https://solii.saqlainhaider8198.workers.dev/"
 
 
