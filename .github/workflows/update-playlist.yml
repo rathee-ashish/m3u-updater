@@ -2,8 +2,7 @@ name: Update M3U Playlist
 
 on:
   schedule:
-    - cron: "45 18 * * *" # 12:15 AM IST → 18:45 UTC (previous day)
-    - cron: "45 6 * * *"  # 12:15 PM IST → 06:45 UTC
+    - cron: '5 */6 * * *'
   workflow_dispatch:       # allows manual trigger
 
 jobs:
