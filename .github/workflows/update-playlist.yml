@@ -1,4 +1,4 @@
-name: Update M3U Playlist
+name: Update Star M3U Playlist
 
 on:
   schedule:
