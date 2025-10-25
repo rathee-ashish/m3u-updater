@@ -1,0 +1,53 @@
+Movies: {
+    &Prive HD,
+    Zee Anmol Cinema 2,
+    Zee Anmol,
+    Zee Cinema HD,
+    Zee Cinemalu HD,
+    &Pictures HD,
+    Zee Anmol Cinema,
+    Zee Bollywood,
+    &Pictures,
+    Zee Cinema,
+    Zee Action,
+    &flix HD,
+    Zee Classic,
+    &xplorHD,
+    Zee Talkies HD,
+    Zee Bangla HD,
+    Zee Bangla Cinema
+}
+
+Entertainment: {
+    Big Magic,
+    Zing,
+    Zee TV HD,
+    &TV HD,
+    Zee Café HD,
+    Zee TV,
+    Zee Salaam,
+    Zee Biskope,
+    Zee Zest HD,
+    Zee Yuva,
+    Zee Marathi HD
+}
+
+News: {
+    Aaj Tak,
+    Zee News,
+    India Today,
+    Good News Today,
+    Zee Business,
+    WION,
+    Zee Bharat,
+    Zee Bihar Jharkhand,
+    Zee News Uttar Pradesh Uttrakhand,
+    Zee Delhi NCR Haryana,
+    Zee Rajasthan News,
+    Zee Madhya Pradesh Chhattisgarh,
+    Zee Punjab Haryana Himachal Pradesh,
+    Zee Punjabi,
+    Zee 24 Taas,
+    Zee 24 Kalak,
+    Zee 24 Ghanta
+}

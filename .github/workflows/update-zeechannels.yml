@@ -1,0 +1,35 @@
+name: Update Zee M3U Playlist
+
+on:
+  schedule:
+    - cron: '5 */6 * * *'   # every 6 hours
+  workflow_dispatch:        # allows manual trigger
+
+jobs:
+  update-zee-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Zee update script
+        run: python update_zee.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add my_playlist.m3u
+          git commit -m "Auto update Zee playlist [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
