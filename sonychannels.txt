@@ -1,11 +1,11 @@
 Movies:{
 SONY MAX HD,
 SONY MAX,
-SONY WAH,
 SONY MAX 2 HD,
 SONY MAX 2,
 SONY PIX HD,
-SONY PIX
+SONY PIX,
+SONY WAH,
 }
 
 Entertainment:{

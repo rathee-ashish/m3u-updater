@@ -1,7 +1,6 @@
 Movies: {
     &Prive HD,
     Zee Anmol Cinema 2,
-    Zee Anmol,
     Zee Cinema HD,
     Zee Cinemalu HD,
     &Pictures HD,
@@ -29,7 +28,8 @@ Entertainment: {
     Zee Biskope,
     Zee Zest HD,
     Zee Yuva,
-    Zee Marathi HD
+    Zee Marathi HD,
+    Zee Anmol
 }
 
 News: {

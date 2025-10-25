@@ -54,7 +54,7 @@ http://localhost:5350/live/279.m3u8
 #EXTINF:-1 tvg-id="0-9-zeeyuva" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Yuva.png",Zee Yuva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105533/ZeeYuvaELE/master.m3u8?hdntl=exp=1761441760~acl=%2f*~data=hdntl~hmac=efedc7655317cda3f7efedc24b55501b735b90492dc3a21b54cb3089a62b25cb
-#EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol.png",Zee Anmol
+#EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol.png",Zee Anmol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105526/ZeeAnmolELE/master.m3u8?hdntl=exp=1761441760~acl=%2f*~data=hdntl~hmac=efedc7655317cda3f7efedc24b55501b735b90492dc3a21b54cb3089a62b25cb
 #EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL
@@ -376,8 +376,6 @@ http://localhost:5350/live/1370.m3u8
 #EXTINF: -1 tvg-id="1371" tvg-name="Colors Tamil" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Tamil.png" group-title="Entertainment", Colors Tamil
 http://localhost:5350/live/1371.m3u8
 
-#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH
-https://dishmt.slivcdn.com/hls/live/2011906-b/SonyWah/master.m3u8?hdnea=exp=1761395402~acl=/*~id=34590231972878307728462142823136~hmac=949608532cc3bf94c195517889bc45a6008af04134c6be8836aeee57753d8372|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF: -1 tvg-id="1396" tvg-name="Set SD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SD.png" group-title="Entertainment", Set SD
 http://localhost:5350/live/1396.m3u8
 
@@ -432,9 +430,6 @@ http://localhost:5350/live/1868.m3u8
 #EXTINF: -1 tvg-id="1881" tvg-name="E!" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/E_NBCU.png" group-title="Entertainment", E!
 http://localhost:5350/live/1881.m3u8
 
-#EXTINF:-1 tvg-id="0-9-zeebangla" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_HD.png",Zee Bangla HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://z5ak-cmaflive.zee5.com/cmaf/live/2105554/ZeeBanglaHDELE/index-connected.m3u8?hdntl=exp=1761441760~acl=%2f*~data=hdntl~hmac=efedc7655317cda3f7efedc24b55501b735b90492dc3a21b54cb3089a62b25cb
 #EXTINF: -1 tvg-id="1925" tvg-name="MH1 Dil Se" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/MH1_DilSe.png" group-title="Entertainment", MH1 Dil Se
 http://localhost:5350/live/1925.m3u8
 
@@ -716,6 +711,11 @@ http://localhost:5350/live/2756.m3u8
 
 #EXTINF: -1 tvg-id="2758" tvg-name="Zee Chitramandir" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Chitramandir.png" group-title="Movies", Zee Chitramandir
 http://localhost:5350/live/2758.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeebangla" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_HD.png",Zee Bangla HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://z5ak-cmaflive.zee5.com/cmaf/live/2105554/ZeeBanglaHDELE/index-connected.m3u8?hdntl=exp=1761441760~acl=%2f*~data=hdntl~hmac=efedc7655317cda3f7efedc24b55501b735b90492dc3a21b54cb3089a62b25cb
+
 
 #EXTINF: -1 tvg-id="2762" tvg-name="NH Studioz" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/NH_Studioz.png" group-title="Movies", NH Studioz
 http://localhost:5350/live/2762.m3u8
