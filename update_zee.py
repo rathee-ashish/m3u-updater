@@ -15,7 +15,7 @@ import requests
 MY_PLAYLIST = "my_playlist.m3u"
 ZEE_CHANNELS_FILE = "zeechannels.txt"
 # ⚠️ Use RAW link, not the GitHub page link:
-ZEE_SOURCE_URL = "https://geefive.saqlainhaider8198.workers.dev/"
+ZEE_SOURCE_URL = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
 
 
 def parse_channels_file(path):
