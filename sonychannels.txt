@@ -9,8 +9,8 @@ SONY WAH,
 }
 
 Entertainment:{
-SONY HD,
-SAB HD,
+SET HD,
+Sony SAB HD,
 SONY MARATHI,
 SONY AATH,
 SONY LIV,
