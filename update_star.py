@@ -13,7 +13,7 @@ import requests
 
 MY_PLAYLIST = "my_playlist.m3u"
 CHANNELS_FILE = "starchannels.txt"
-STAR_SOURCE_URL = "https://raw.githubusercontent.com/Arunjunan20/My-IPTV/refs/heads/main/jiostar.m3u"
+STAR_SOURCE_URL = "https://voot.vodep39240327.workers.dev?voot.m3u"
 
 
 def parse_channels_file(path):
