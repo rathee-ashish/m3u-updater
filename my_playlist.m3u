@@ -1,6 +1,11 @@
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
-#EXTINF:-1 tvg-id="1000009246" tvg-name="SONY HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SONY HD
-https://dishmt.slivcdn.com/hls/live/2011671-b/SETHD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1016" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SET HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f5c58e6bf0a2deb018fe87a934a6a1d0:ebd37e936867596a868cc085070e4cd5
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
 https://dishmt.slivcdn.com/hls/live/2011749-b/SABHD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF: -1 tvg-id="144" tvg-name="Colors HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" group-title="Entertainment", Colors HD
