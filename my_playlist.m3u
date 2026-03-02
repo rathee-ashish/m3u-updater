@@ -61,8 +61,13 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105533/ZeeYuvaELE/master.m3u8?hdntl=ex
 #EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol.png",Zee Anmol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105526/ZeeAnmolELE/master.m3u8?hdntl=exp=1770728975~acl=%2f*~id=88f68b9a-ea56-49df-ba1c-017d949d5eec~data=hdntl~hmac=8210cc198ca4d3f316d2e4a0205f46370d26222b9f4c3f4d89ee65f971e8f187
-#EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL
-https://dishmt.slivcdn.com/hls/live/2011741-b/SonyPalSD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1024" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",Sony Pal
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=951fda0637ef58608a0cc62a31c7f594:59bcb68bb58d93ae568879b8ef4185a2
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPAL_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="528" tvg-name="DD India" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/DD_India.png" group-title="Entertainment", DD India
 http://localhost:5350/live/528.m3u8
 
@@ -156,8 +161,13 @@ http://localhost:5350/live/692.m3u8
 #EXTINF: -1 tvg-id="695" tvg-name="DD Sahayadri" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sahayadri.png" group-title="Entertainment", DD Sahayadri
 http://localhost:5350/live/695.m3u8
 
-#EXTINF:-1 tvg-id="1000009255" tvg-name="SONY AATH" group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_aath.png",SONY AATH
-https://dishmt.slivcdn.com/hls/live/2011641-b/SonyAathSD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1047" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",Sony aath
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c00c75edb2a65e2d86f4094249bfbd85:9221a2bda61fe219560311c60662ce30
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyAATH_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="698" tvg-name="Aakash Aath" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Aakaash_bangla.png" group-title="Entertainment", Aakash Aath
 http://localhost:5350/live/698.m3u8
 
@@ -504,8 +514,13 @@ http://localhost:5350/live/2759.m3u8
 #EXTINF: -1 tvg-id="2761" tvg-name="Zee Ganga" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Ganga.png" group-title="Entertainment", Zee Ganga
 http://localhost:5350/live/2761.m3u8
 
-#EXTINF:-1 tvg-id="1000009247" tvg-name="SONY MAX HD" group-title="Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD
-https://dishmt.slivcdn.com/hls/live/2011670-b/SonyMaxhd/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1243" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies",Sony Max HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9d2bfb4c9aa45ac488bd92ec0e351217:c980b395f0be528c4233417ef6305274
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyMAX_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvpictureshd/list/1920x1080listead02d49416241ce89c60432d7b879a6.jpg" group-title="Movies",&Pictures HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin":"https://www.zee5.com","Referer":"https://www.zee5.com/"}
@@ -539,8 +554,13 @@ https://z5live-cf.zee5.com/out/v1/ZEE5_Live_Channels/And-Flix-HD/index-connected
 #EXTINF: -1 tvg-id="182" tvg-name="B4U Movies" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Movies.png" group-title="Movies", B4U Movies
 http://localhost:5350/live/182.m3u8
 
-#EXTINF:-1 tvg-id="1000009258" tvg-name="SONY PIX HD" group-title="Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",SONY PIX HD
-https://dishmt.slivcdn.com/hls/live/2011748-b/PIXHD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="2148" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies",Sony Pix HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1ff1fe6b2519562ca3a28602592cd547:d43132eca3cefc4e29ca8fe548a0638b
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF:-1 tvg-id="1113" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png" group-title="Movies",Star Gold Select HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2cb38dd5e6235bd9936ad7a29bc7ffd8:281d7b329be4e22d4e0e3e1d508ba2a4
@@ -592,8 +612,13 @@ http://localhost:5350/live/289.m3u8
 #EXTINF: -1 tvg-id="483" tvg-name="Sony MAX2" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies", Sony MAX2
 https://dish.slivcdn.com/hls/live/2011908/MAX2/master.m3u8
 
-#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH
-https://dishmt.slivcdn.com/hls/live/2011906-b/SonyWah/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1122" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies",Sony Wah
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=336eb0b114415971a745af85368c8a7c:4dc9974ddfec2c6da275acd6d617661b
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyWAH_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinema/list/1920x1080list403630fe2cb2485db8bddad83245f88b.jpg" group-title="Movies",Zee Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin":"https://www.zee5.com","Referer":"https://www.zee5.com/"}
@@ -742,9 +767,17 @@ http://localhost:5350/live/578.m3u8
 #EXTINF: -1 tvg-id="286" tvg-name="Animal Planet HD World" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD World
 http://localhost:5350/live/286.m3u8
 
-#EXTINF: -1 tvg-id="821" tvg-name="Sony BBC Earth HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Infotainment", Sony BBC Earth HD
-https://dish.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8
+#EXTINF:-1 tvg-id="2149" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Entertainment",Sony BBC Earth HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 
+# =====================================
+# Generated by StreamFlex
+# Thank you
+# =====================================
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="566" tvg-name="Animal Planet Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Animal_Planet_Hindi.png" group-title="Infotainment", Animal Planet Hindi
 http://localhost:5350/live/566.m3u8
 
@@ -793,9 +826,17 @@ http://localhost:5350/live/774.m3u8
 #EXTINF: -1 tvg-id="775" tvg-name="Vanitha" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Vanitha.png" group-title="Infotainment", Vanitha
 http://localhost:5350/live/775.m3u8
 
-#EXTINF:-23 tvg-id="23", tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD_English.png", tvg-language="Hindi", group-title="Infotainment", SONY BBC EARTH HD
-https://dish.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8
+#EXTINF:-1 tvg-id="2149" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Entertainment",Sony BBC Earth HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 
+# =====================================
+# Generated by StreamFlex
+# Thank you
+# =====================================
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="852" tvg-name="Sony BBC Earth HD English" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD_English.png" group-title="Infotainment", Sony BBC Earth HD English
 http://localhost:5350/live/852.m3u8
 
@@ -1150,30 +1191,55 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/output/index.mpd
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1770641732~exp=1770728132~acl=/*~hmac=4a8ba65bedd4972c04679a6fede7cda13f64fd25a8629cb7eccfedffb2d7934a"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/output/index.mpd?__hdnea__=st=1770641732~exp=1770728132~acl=/*~hmac=4a8ba65bedd4972c04679a6fede7cda13f64fd25a8629cb7eccfedffb2d7934a&xxx=%7Ccookie=__hdnea__=st=1770641732~exp=1770728132~acl=/*~hmac=4a8ba65bedd4972c04679a6fede7cda13f64fd25a8629cb7eccfedffb2d7934a
-#EXTINF:-1 tvg-id="1000009281" tvg-name="SONY TEN 5 HD" group-title="Sports" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png",SONY TEN 5 HD
-https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
-#EXTINF:-1 tvg-id="1000009276" tvg-name="SONY TEN 1 HD" group-title="Sports" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png",SONY TEN 1 HD
-https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1317" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png" group-title="Sports",Sony Ten 5 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=233d5f64b5b1547dae38f5a8b0b85efa:3b000618435f702db7d9910d8265584a
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Six_HD_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
+#EXTINF:-1 tvg-id="1318" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",Sony Ten 1 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=523acf1f55485476817958a62a3f2ed9:52b3cea435ed25d445f9eae4883c7001
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_HD_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="204" tvg-name="DD Sports" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png" group-title="Sports", DD Sports
 http://localhost:5350/live/204.m3u8
 
-#EXTINF:-1 tvg-id="1000009280" tvg-name="SONY TEN 1" group-title="Sports" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png",SONY TEN 1
-https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1320" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",Sony Ten 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3394be91407c5fe99d784d2f2d6d4a12:58665e1df41f9f22ed73c56384bb3f51
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_1_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="523" tvg-name="Ten 2" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports", Ten 2
 http://localhost:5350/live/523.m3u8
 
 #EXTINF:-1 tvg-id="1000009283" tvg-name="SONY TEN 3" group-title="Sports" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",SONY TEN 3
 https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
-#EXTINF:-1 tvg-id="1000009282" tvg-name="SONY TEN 5" group-title="Sports" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png",SONY TEN 5
-https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1323" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png" group-title="Sports",Sony Ten 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d2d8709de11d5955b60c57d3c955733e:7655200b24bf82808fb8addf2f02847b
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF: -1 tvg-id="875" tvg-name="Eurosport HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Dsports_HD.png" group-title="Sports", Eurosport HD
 http://localhost:5350/live/875.m3u8
 
 #EXTINF: -1 tvg-id="889" tvg-name="Jio Sports HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Jio_Sports.png" group-title="Sports", Jio Sports HD
 http://localhost:5350/live/889.m3u8
 
-#EXTINF:-1 tvg-id="1000009277" tvg-name="SONY TEN 2 HD" group-title="Sports" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",SONY TEN 2 HD
-https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-id="1325" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",Sony Ten 2 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7771cca923225ce08887cbae764e72c6:67d80b71f02d2cd1e4e0ee7b9b752841
+
+#EXTVLCOPT:http-user-agent=SonyLiv/7.1.3 (Linux;Android 13) StreamFlex/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_BTS/output/index.mpd?__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9&xxx=%7Ccookie=__hdnea__=st=1772396706~exp=1772483106~acl=/*~hmac=e28a27de69b4943d14dc65d71497e81cf63091586ac4dbd076a232bc49442ee9
 #EXTINF:-1 tvg-id="1000009278" tvg-name="SONY TEN 3 HD" group-title="Sports" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",SONY TEN 3 HD
 https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF: -1 tvg-id="1061" tvg-name="TEST5 HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/TEST5_HD.png" group-title="Sports", TEST5 HD
