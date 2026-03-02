@@ -13,7 +13,7 @@ import requests
 
 MY_PLAYLIST = "my_playlist.m3u"
 SONY_CHANNELS_FILE = "sonychannels.txt"
-SONY_SOURCE_URL = "https://solii.saqlainhaider8198.workers.dev/"
+SONY_SOURCE_URL = "https://raw.githubusercontent.com/Sflex0719/SonGharLive/refs/heads/main/SL.m3u"
 
 
 def parse_channels_file(path):
