@@ -2,7 +2,7 @@ name: Update Sony M3U Playlist
 
 on:
   schedule:
-    - cron: '1 18,0,6,12 * * *'
+    - cron: '0 * * * *'   # every hour
   workflow_dispatch:       # allows manual trigger
 
 jobs:

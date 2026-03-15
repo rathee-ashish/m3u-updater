@@ -2,7 +2,7 @@ name: Update Star M3U Playlist
 
 on:
   schedule:
-    - cron: '3 */12 * * *'
+    - cron: '0 * * * *'   # every hour
   workflow_dispatch:       # allows manual trigger
 
 jobs:
