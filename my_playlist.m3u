@@ -1,16 +1,14 @@
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 #EXTINF:-1 tvg-id="291" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=ebd37e936867596a868cc085070e4cd5&key=f5c58e6bf0a2deb018fe87a934a6a1d0
+#KODIPROP:inputstream.adaptive.license_key=ebd37e936867596a868cc085070e4cd5:f5c58e6bf0a2deb018fe87a934a6a1d0
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_HD_BTS/output/index.mpd?__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b&xxx=%7Ccookie=__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b
 #EXTINF:-1 tvg-id="471" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySAB.png",Sony SAB HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=0449d593e6bb5a81a7ab5c5986e5940b&key=c0abc7e159389031e53a4b8dfa53d141
+#KODIPROP:inputstream.adaptive.license_key=0449d593e6bb5a81a7ab5c5986e5940b:c0abc7e159389031e53a4b8dfa53d141
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -75,8 +73,7 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105533/ZeeYuvaELE/master.m3u8?hdntl=ex
 https://z5ak-cmaflive.zee5.com/cmaf/live/2105526/ZeeAnmolELE/master.m3u8?hdntl=exp=1770728975~acl=%2f*~id=88f68b9a-ea56-49df-ba1c-017d949d5eec~data=hdntl~hmac=8210cc198ca4d3f316d2e4a0205f46370d26222b9f4c3f4d89ee65f971e8f187
 #EXTINF:-1 tvg-id="474" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPAL.png",Sony Pal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=951fda0637ef58608a0cc62a31c7f594&key=59bcb68bb58d93ae568879b8ef4185a2
+#KODIPROP:inputstream.adaptive.license_key=951fda0637ef58608a0cc62a31c7f594:59bcb68bb58d93ae568879b8ef4185a2
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -176,8 +173,7 @@ http://localhost:5350/live/695.m3u8
 
 #EXTINF:-1 tvg-id="697" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyAATH.png",Sony aath
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=c00c75edb2a65e2d86f4094249bfbd85&key=9221a2bda61fe219560311c60662ce30
+#KODIPROP:inputstream.adaptive.license_key=c00c75edb2a65e2d86f4094249bfbd85:9221a2bda61fe219560311c60662ce30
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -530,8 +526,7 @@ http://localhost:5350/live/2761.m3u8
 
 #EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX.png",Sony Max HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=fe8b5e6e0a275d7fbfeb27abf9b75c0b&key=c27da65de4d17976409daed680b1e9a1
+#KODIPROP:inputstream.adaptive.license_key=fe8b5e6e0a275d7fbfeb27abf9b75c0b:c27da65de4d17976409daed680b1e9a1
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -571,8 +566,7 @@ http://localhost:5350/live/182.m3u8
 
 #EXTINF:-1 tvg-id="762" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPIX.png",Sony Pix HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=00426b6344e351f491f324a94b62cd2f&key=ae3a59fe9918e7180ed65e2c842f7cc8
+#KODIPROP:inputstream.adaptive.license_key=00426b6344e351f491f324a94b62cd2f:ae3a59fe9918e7180ed65e2c842f7cc8
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -630,8 +624,7 @@ https://dish.slivcdn.com/hls/live/2011908/MAX2/master.m3u8
 
 #EXTINF:-1 tvg-id="1393" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyWAH.png",Sony Wah
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=f87b89f3549e5bdb969cb35ea57827b7&key=022f3fcd6c3035ed2843b0b45bff4304
+#KODIPROP:inputstream.adaptive.license_key=f87b89f3549e5bdb969cb35ea57827b7:022f3fcd6c3035ed2843b0b45bff4304
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -786,8 +779,7 @@ http://localhost:5350/live/286.m3u8
 
 #EXTINF:-1 tvg-id="821" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png",Sony BBC Earth HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=f45e69507f0f5aa1a6e82374efb0af25&key=f84348219837769feb5a26a7b1cd31dc
+#KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -842,8 +834,7 @@ http://localhost:5350/live/775.m3u8
 
 #EXTINF:-1 tvg-id="821" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png",Sony BBC Earth HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=f45e69507f0f5aa1a6e82374efb0af25&key=f84348219837769feb5a26a7b1cd31dc
+#KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -1204,16 +1195,14 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/output/index.mpd
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/output/index.mpd?__hdnea__=st=1775975053~exp=1775996653~acl=/*~hmac=5cb4bf09a622a8f42969940d9986edd9c39f9d1f0b2f28cfc4476a2e468353c5&xxx=%7Ccookie=__hdnea__=st=1775975053~exp=1775996653~acl=/*~hmac=5cb4bf09a622a8f42969940d9986edd9c39f9d1f0b2f28cfc4476a2e468353c5
 #EXTINF:-1 tvg-id="155" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",Sony Ten 5 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=233d5f64b5b1547dae38f5a8b0b85efa&key=3b000618435f702db7d9910d8265584a
+#KODIPROP:inputstream.adaptive.license_key=233d5f64b5b1547dae38f5a8b0b85efa:3b000618435f702db7d9910d8265584a
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Six_HD_BTS/output/index.mpd?__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b&xxx=%7Ccookie=__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b
 #EXTINF:-1 tvg-id="162" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",Sony Ten 1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=523acf1f55485476817958a62a3f2ed9&key=52b3cea435ed25d445f9eae4883c7001
+#KODIPROP:inputstream.adaptive.license_key=523acf1f55485476817958a62a3f2ed9:52b3cea435ed25d445f9eae4883c7001
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
@@ -1244,8 +1233,7 @@ http://localhost:5350/live/889.m3u8
 
 #EXTINF:-1 tvg-id="891" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Ten 2 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=7771cca923225ce08887cbae764e72c6&key=67d80b71f02d2cd1e4e0ee7b9b752841
+#KODIPROP:inputstream.adaptive.license_key=7771cca923225ce08887cbae764e72c6:67d80b71f02d2cd1e4e0ee7b9b752841
 
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1775964345~exp=1775985945~acl=/*~hmac=56547b3761b444a95331764c83f7f167ceea0bbd6b54a7c16034e5941617537b"}
