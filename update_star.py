@@ -13,7 +13,7 @@ import requests
 
 MY_PLAYLIST = "my_playlist.m3u"
 CHANNELS_FILE = "starchannels.txt"
-STAR_SOURCE_URL = "https://raw.githubusercontent.com/fakeall12398-sketch/JIO_TV/refs/heads/main/jstar.m3u"
+STAR_SOURCE_URL = "https://raw.githubusercontent.com/alex4528x/m3u/refs/heads/main/jstar.m3u"
 
 
 def parse_channels_file(path):
