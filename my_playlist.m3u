@@ -174,8 +174,8 @@ http://localhost:5350/live/695.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"7uclWJayUxqfb542OeOdWg","k":"8guj4etoCu_70xfzFIpw6A"},{"kty":"oct","kid":"TwepF1fyUSG-5TEylNGxgg","k":"8EZrk_8v8pR4Khk_RQOTpw"},{"kty":"oct","kid":"6jrZiTL9XfWrJuXoReS5QQ","k":"hrbddoGLj6egu9D2ET1lsA"},{"kty":"oct","kid":"4VwQzoyEUlylEtCkFJJ_kg","k":"_tCRXQUCisxr1Eoz_fOzsg"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyAATH_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyAATH_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="698" tvg-name="Aakash Aath" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Aakaash_bangla.png" group-title="Entertainment", Aakash Aath
 http://localhost:5350/live/698.m3u8
 
@@ -807,8 +807,8 @@ http://localhost:5350/live/286.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"dMSFvd2kX2qs6i_Yx2KKgw","k":"0rwW52IxS-n6CrfHXb1C-g"},{"kty":"oct","kid":"jTi_XZbGX_Sn4OWDND_ppw","k":"SeidrHth_cp1vCr4iC40qg"},{"kty":"oct","kid":"DVM92SygV86FkQ-7mL531Q","k":"RCaQx8WFLKfGO2PUg6trww"},{"kty":"oct","kid":"UixpC14_WAuvwpmsFb6p9g","k":"mDwK9ZkH2GmCHZaJtZaO9g"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="566" tvg-name="Animal Planet Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Animal_Planet_Hindi.png" group-title="Infotainment", Animal Planet Hindi
 http://localhost:5350/live/566.m3u8
 
@@ -861,8 +861,8 @@ http://localhost:5350/live/775.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"dMSFvd2kX2qs6i_Yx2KKgw","k":"0rwW52IxS-n6CrfHXb1C-g"},{"kty":"oct","kid":"jTi_XZbGX_Sn4OWDND_ppw","k":"SeidrHth_cp1vCr4iC40qg"},{"kty":"oct","kid":"DVM92SygV86FkQ-7mL531Q","k":"RCaQx8WFLKfGO2PUg6trww"},{"kty":"oct","kid":"UixpC14_WAuvwpmsFb6p9g","k":"mDwK9ZkH2GmCHZaJtZaO9g"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="852" tvg-name="Sony BBC Earth HD English" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD_English.png" group-title="Infotainment", Sony BBC Earth HD English
 http://localhost:5350/live/852.m3u8
 
@@ -1221,8 +1221,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mp
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jMTnRy35WpeJnFShCi3uew","k":"AHA1QofhXwGluz7GkTrRmw"},{"kty":"oct","kid":"rjEz7OWAVqCZ_A9B-etwSw","k":"UMeR1Cia676wvDu0lK1bSQ"},{"kty":"oct","kid":"jLe0DO_gU-qRiV4xlLuZEg","k":"Rnz210C3IS_PxkhkT7eZQw"},{"kty":"oct","kid":"MOEQmFwuUxSNbIrm471kdA","k":"KCbZxX3gcwCVpNdEcwM1sA"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Six_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Six_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF:-1 tvg-id="Sony Ten 1 HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports", Sony Ten 1 HD
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jKkb4GKfXOmQ1iNu8uqt0w","k":"PiHZZV9olxrqg8urL6O4Zw"},{"kty":"oct","kid":"kHVv0NwFWWuIlkdZ9-FwBQ","k":"g6d_0VfFDEtc_raomWrBYQ"},{"kty":"oct","kid":"NSXJJOVBVLOVM9hrHHpCig","k":"hUi1ZvxmCKfTvWAe5fPYiQ"},{"kty":"oct","kid":"DY-jFS5qWhyYe43DUNuTiw","k":"8xK0MH6j6xvpLO5mDbHhng"}],"type":"temporary"}
 
@@ -1259,8 +1259,8 @@ http://localhost:5350/live/889.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"gd4FFgAzV9uBBgst-j1ZjA","k":"5KXv4HmSRJxjdOdDk34D-g"},{"kty":"oct","kid":"CLHhBtYvXli-42iNIYlT3A","k":"XHqnEBDiPv7i4jnH5gB6SA"},{"kty":"oct","kid":"kfznfy-AVvCE7ZYcfr6G7Q","k":"ghS9XrbCFETo6mRIJK_9eQ"},{"kty":"oct","kid":"DIsFsPDUUVKIuxIUlkEuWg","k":"fYE06KNkV5VScOtPeSzqtg"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF:-1 tvg-id="1000009278" tvg-name="SONY TEN 3 HD" group-title="Sports" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",SONY TEN 3 HD
 https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1771914784~acl=/*~id=77284567316916060422542621040611~hmac=d5553eaa26eae30a00d73439e6c27e8adc27edefa6d8ed87de8c585cd5c1a6cc|User-agent=com.sonyliv/6.22.4 (Android 15; en_GB; SM-S9360 Build/AP3A.240905.015.A2)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
 #EXTINF: -1 tvg-id="1061" tvg-name="TEST5 HD" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/TEST5_HD.png" group-title="Sports", TEST5 HD
