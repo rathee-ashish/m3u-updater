@@ -1573,8 +1573,8 @@ http://localhost:5350/live/421.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"vkcrSJXCUjCNHv5rULjSkQ","k":"f7Ca0tuCaVkMVVOmb8aLOg"},{"kty":"oct","kid":"s9TfVYcUXRKhUKEM2h0o5w","k":"Dn2CNV-AZ7P8gh5GkHA21w"},{"kty":"oct","kid":"1zMyAEhFWeiVPoMKpu0Qzw","k":"K9B8cL_3ZxNIXijiuiLrTg"},{"kty":"oct","kid":"hrI4NDm1W0ukoaZ0yS4j0A","k":"cPohsX4tonp6RdezEF2mNw"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_24_Taas_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_24_Taas_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="464" tvg-name="24 Ghanta TV" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/24_Ghanta_TV.png" group-title="News", 24 Ghanta TV
 http://localhost:5350/live/464.m3u8
 
@@ -1630,8 +1630,8 @@ http://localhost:5350/live/503.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"4zGYR8nTUPSeYJUN-JUnnA","k":"uu3XhUnf4SBO6XMxPcISRQ"},{"kty":"oct","kid":"5RjSXB9IWuuNsQPhFFY9yQ","k":"NiG4cGl1TFi5C0sRi-3SgA"},{"kty":"oct","kid":"ZDgWuGklU_evCO1dvpWFuw","k":"4hNqyLi1f2JRQOWG_IIkyA"},{"kty":"oct","kid":"KpGtw3BTVBe5X4maD-hkfA","k":"2ciQIkRRfvSKIjON4GfIsw"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_News_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_News_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="506" tvg-name="Sahara Samay Rastriya" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sahara_Samay_Rastriya.png" group-title="News", Sahara Samay Rastriya
 http://localhost:5350/live/506.m3u8
 
@@ -1846,8 +1846,8 @@ http://localhost:5350/live/718.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"zC2m4TogX6WY-pMf99S4Aw","k":"uwqZ7saOUxokBSZEya7C4w"},{"kty":"oct","kid":"lYhsyaJ2XA6SGDtuP0m-0g","k":"wxos5lm6k3slRxmIVCzJ3w"},{"kty":"oct","kid":"oamkD55MWrqLtaqlinjoXw","k":"ZfkIqkCd1hMfosEIvX_2IA"},{"kty":"oct","kid":"eR9ZUUx3WJu3DZCO9fav7A","k":"cRxFm-tiLGuuM_zUCCtKcQ"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Kalinga_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Kalinga_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF: -1 tvg-id="725" tvg-name="Kairali News" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Kairali_People_TV.png" group-title="News", Kairali News
 http://localhost:5350/live/725.m3u8
 
