@@ -30,14 +30,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/AndTVHD_MOB/WDVLive/index.mpd?__hdnea__=s
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"A9bStuRNXSGm9ekFIqNBxQ","k":"9yGrTn4y4YsLyvFiT64tmg"},{"kty":"oct","kid":"9Lpuf6DJVGqtLYpOD32oOw","k":"IYgjim3rnTLIGJ4yodo4jg"},{"kty":"oct","kid":"xiVXBryiUAea6vH8RHTRuQ","k":"6rYheqxvH-7BAxIOYhjrQw"},{"kty":"oct","kid":"mT4n5ID5VWSfhoQxf6BfWQ","k":"-O60nCUViz0O-cN6IDUtLA"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Plus_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Plus_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF:-1 tvg-id="Star Bharat HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png" group-title="Entertainment", Star Bharat HD
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"IW9WxVioVIiSKevNSe_gJw","k":"FDIU2Ee5B7_WgyvFuaIotQ"},{"kty":"oct","kid":"GtPDz0F5Wd2gzzpNQ-Hjrw","k":"zNndLjTDt8xXuoGiQwWtPA"},{"kty":"oct","kid":"rW9z4vfxXtmwlVduQ_5AXw","k":"ONXWadXulvGNyJBjZ1PaOw"},{"kty":"oct","kid":"CcERz2V8XJ-MTynQbW325Q","k":"LmA9KsTcEiwsaEq0V5c1hA"}],"type":"temporary"}
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 @alex_vault
-#EXTHTTP:{"cookie":"__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Bharat_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3&xxx=%7Ccookie=__hdnea__=st=1787630404~exp=1787652004~acl=/*~hmac=ae996b2084a892f368c29251ceee2c1d130dfe50114e30e44acedc9862eaa5b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Bharat_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38&xxx=%7Ccookie=__hdnea__=st=1787673602~exp=1787695202~acl=/*~hmac=a21017ce93003ef44632cb1c13ba033e7b47297cdfd5a8cab377c97075af8c38
 #EXTINF:-1 tvg-id="1127" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Bharat.png" group-title="Entertainment", Star Bharat
 #KODIPROP:inputstream.adaptive.license_key=687cfa6d31645a91ba3c38a9acdfac7c:c035ca584ac0a2170b96e2fa4523f3be
 
